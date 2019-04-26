@@ -1,0 +1,19 @@
+{
+    "name": "cory-hrycko/beginersluck",
+    "description": "Memes for the sake of memes",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Cory Hrycko",
+            "email": "chrycko9491@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    }
+}
