@@ -10,7 +10,7 @@ use Inc\Controllers\Controller;
 use Inc\Api\Callbacks\AdminCallbacks;
 use Inc\Api\Callbacks\ManagerCallbacks;
 
-class Admin extends Controller
+class Dashboard extends Controller
 {
     // Variables.
     public $callbacks;
@@ -22,7 +22,7 @@ class Admin extends Controller
 
     public $pages = [];
 
-    public $subpages = [];
+//    public $subpages = [];
 
 
 
@@ -36,7 +36,7 @@ class Admin extends Controller
 
         $this->setPages();
 
-        $this->setSubpages();
+//        $this->setSubpages();
 
         $this->setSettings();
 
@@ -44,7 +44,7 @@ class Admin extends Controller
 
 	    $this->setFields();
 
-        $this->settings->addPages( $this->pages )->withSubPage( 'Dashboard' )->addSubPages( $this->subpages )->register();
+        $this->settings->addPages( $this->pages )->withSubPage( 'Dashboard' )->register();
     }
 
 	/**
@@ -66,35 +66,35 @@ class Admin extends Controller
         ];
     }
 
-    public function setSubpages()
-    {
-        $this->subpages = [
-            [
-                'parent_slug' => 'beginers_luck_plugin',
-                'page_title' => 'Custom Post Types',
-                'menu_title' => 'CPT',
-                'capability' => 'manage_options',
-                'menu_slug' => 'beginers_luck_cpt',
-                'callback' => function() { echo '<h1>CPT Manager</h1>'; }
-            ],
-            [
-                'parent_slug' => 'beginers_luck_plugin',
-                'page_title' => 'Custom Taxonomies',
-                'menu_title' => 'Taxonomies',
-                'capability' => 'manage_options',
-                'menu_slug' => 'beginers_luck_taxonomies',
-                'callback' => function() { echo '<h1>Taxonomies Manager</h1>'; }
-            ],
-            [
-                'parent_slug' => 'beginers_luck_plugin',
-                'page_title' => 'Custom Widgets',
-                'menu_title' => 'Widgets',
-                'capability' => 'manage_options',
-                'menu_slug' => 'beginers_luck_widgets',
-                'callback' => function() { echo '<h1>Widgets Manager</h1>'; }
-            ]
-        ];
-    }
+//    public function setSubpages()
+//    {
+//        $this->subpages = [
+//            [
+//                'parent_slug' => 'beginers_luck_plugin',
+//                'page_title' => 'Custom Post Types',
+//                'menu_title' => 'CPT',
+//                'capability' => 'manage_options',
+//                'menu_slug' => 'beginers_luck_cpt',
+//                'callback' => function() { echo '<h1>CPT Manager</h1>'; }
+//            ],
+//            [
+//                'parent_slug' => 'beginers_luck_plugin',
+//                'page_title' => 'Custom Taxonomies',
+//                'menu_title' => 'Taxonomies',
+//                'capability' => 'manage_options',
+//                'menu_slug' => 'beginers_luck_taxonomies',
+//                'callback' => function() { echo '<h1>Taxonomies Manager</h1>'; }
+//            ],
+//            [
+//                'parent_slug' => 'beginers_luck_plugin',
+//                'page_title' => 'Custom Widgets',
+//                'menu_title' => 'Widgets',
+//                'capability' => 'manage_options',
+//                'menu_slug' => 'beginers_luck_widgets',
+//                'callback' => function() { echo '<h1>Widgets Manager</h1>'; }
+//            ]
+//        ];
+//    }
 
 	public function setSettings()
 	{

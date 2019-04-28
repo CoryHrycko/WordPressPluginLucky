@@ -55,17 +55,16 @@ function activate_beginners_luck()
     Inc\Base\Activate::activate();
 }
 
+register_activation_hook(__FILE__,'actsivate_beginners_luck' );
 /**
  * The code that runs the deactivation of the plugin.
  */
 
 function deactivate_beginners_luck()
 {
-    Inc\Base\Deactivate::deactivate();
+	Inc\Base\Deactivate::deactivate();
 }
 
-
-register_activation_hook(__FILE__,'activate_beginners_luck' );
 register_deactivation_hook(__FILE__,'deacitvate_beginers_luck' );
 
 if (class_exists('Inc\\Init')) {

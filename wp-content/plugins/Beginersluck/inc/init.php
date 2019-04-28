@@ -6,6 +6,8 @@
 
 namespace Inc;
 
+use Inc\Base\CustomPostTypeController;
+
 final class Init
 {
     /**
@@ -16,9 +18,10 @@ final class Init
     public static function get_services()
     {
         return [
-            Pages\Admin::class,
+            Pages\Dashboard::class,
             Base\Engueue::class,
-            Base\SettingsLinks::class
+            Base\SettingsLinks::class,
+	        CustomPostTypeController::class
 
         ];
     }
