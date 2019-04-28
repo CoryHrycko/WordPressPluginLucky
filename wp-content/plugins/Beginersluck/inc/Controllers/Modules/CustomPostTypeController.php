@@ -17,11 +17,8 @@ class CustomPostTypeController extends Controller
 
 	public function register()
 	{
-		$option = get_option( 'beginers_luck_plugin' );
 
-		$activated = isset($option['cpt_manager']) ? $option['cpt_manager'] : false;
-
-		if ( ! $activated ) return; // BANG!
+		if ( ! $this->activated('cpt_manager') ) return; // BANG!
 
 		$this->settings = new SettingsApi();
 

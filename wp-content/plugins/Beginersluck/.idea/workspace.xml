@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83075ea1-a0d9-4e66-8b9e-1c087639d237" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/Base/CustomPostTypeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/ChatController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/CustomTaxonomyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/GalleryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/MembershipController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/TemplateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/TestimonialController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/Controllers/Modules/WidgetController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Beginersluck.php" beforeDir="false" afterPath="$PROJECT_DIR$/Beginersluck.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/Api/Callbacks/ManagerCallbacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Api/Callbacks/ManagerCallbacks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/Api/SettingsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Api/SettingsApi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/Base/activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Base/activate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/Pages/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Pages/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Api/Callbacks/AdminCallbacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Api/Callbacks/AdminCallbacks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Base/CustomPostTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Controllers/Modules/CustomPostTypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Controllers/Controller.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,60 +45,7 @@
     <drupalPath />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/Pages/Dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-              <folding>
-                <element signature="e#6#38#0#PHP" expanded="true" />
-                <element signature="e#62#86#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inc/Base/CustomPostTypeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="e#29#53#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/Api/Callbacks/ManagerCallbacks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/Api/SettingsApi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" column="73" lean-forward="true" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -128,13 +78,11 @@
         <option value="$PROJECT_DIR$/src/scss/modules/tab.scss" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/inc/Api/Callbacks/AdminCallbacks.php" />
         <option value="$PROJECT_DIR$/templates/admin.php" />
         <option value="$PROJECT_DIR$/inc/Pages/s" />
         <option value="$PROJECT_DIR$/src/scss/mystyle.scss" />
         <option value="$PROJECT_DIR$/inc/Base/Engueue.php" />
         <option value="$PROJECT_DIR$/src/scss/modules/checkbox.scss" />
-        <option value="$PROJECT_DIR$/inc/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/inc/Pages/Admin.php" />
         <option value="$PROJECT_DIR$/Beginersluck.php" />
         <option value="$PROJECT_DIR$/inc/Base/activate.php" />
@@ -143,6 +91,18 @@
         <option value="$PROJECT_DIR$/inc/init.php" />
         <option value="$PROJECT_DIR$/inc/Api/SettingsApi.php" />
         <option value="$PROJECT_DIR$/inc/Base/CustomPostTypeController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/CustomPostTypeController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/CustomTaxonomyController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/WidgetController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/GalleryController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/TestimonialController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/TemplateController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/MembershipController.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/ChatController.php" />
+        <option value="$PROJECT_DIR$/inc/Api/Callbacks/AdminCallbacks.php" />
+        <option value="$PROJECT_DIR$/inc/Controllers/Modules/ChatController.php" />
       </list>
     </option>
   </component>
@@ -206,6 +166,19 @@
               <item name="Beginersluck" type="b2602c69:ProjectViewProjectNode" />
               <item name="Beginersluck" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Beginersluck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Beginersluck" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Beginersluck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Beginersluck" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -229,13 +202,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\inc\Api\Callbacks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\inc\Controllers\Modules" />
+      <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\inc\Controllers" />
       <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\src\js" />
       <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\src" />
       <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\inc\Base" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\htdocs\wordpressCopy\wp-content\plugins\Beginersluck\inc\Api\Callbacks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,17 +249,17 @@
       <workItem from="1555552663214" duration="677000" />
       <workItem from="1556157004023" duration="237000" />
       <workItem from="1556244285012" duration="3577000" />
-      <workItem from="1556418201520" duration="4176000" />
+      <workItem from="1556418201520" duration="8241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68280000" />
+    <option name="totallyTimeSpent" value="72345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.10660981" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.10660981" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.2238806" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,7 +272,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26218852" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26218852" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/Api/Callbacks/AdminCallbacks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/Pages/s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -432,16 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding>
-            <element signature="e#6#38#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,10 +445,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/CustomPostTypeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#29#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1271">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Api/SettingsApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="38" column="73" lean-forward="true" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Api/Callbacks/ManagerCallbacks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/CustomTaxonomyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+            <element signature="e#70#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/WidgetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+            <element signature="e#68#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/Pages/Dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+        <state relative-caret-position="378">
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="55" />
           <folding>
             <element signature="e#6#38#0#PHP" expanded="true" />
             <element signature="e#62#86#0#PHP" expanded="true" />
@@ -498,33 +509,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/Api/SettingsApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="73" lean-forward="true" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/init.php">
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/GalleryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/Api/Callbacks/ManagerCallbacks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/Base/CustomPostTypeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="54" />
           <folding>
-            <element signature="e#29#53#0#PHP" expanded="true" />
+            <element signature="e#6#38#0#PHP" expanded="true" />
+            <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/TemplateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/TestimonialController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/MembershipController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="e#37#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Api/Callbacks/AdminCallbacks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Controllers/Modules/ChatController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#37#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
